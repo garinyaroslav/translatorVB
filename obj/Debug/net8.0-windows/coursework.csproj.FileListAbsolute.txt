@@ -1,0 +1,33 @@
+C:\studies\coursework\bin\Debug\net8.0-windows\coursework.exe
+C:\studies\coursework\bin\Debug\net8.0-windows\coursework.deps.json
+C:\studies\coursework\bin\Debug\net8.0-windows\coursework.runtimeconfig.json
+C:\studies\coursework\bin\Debug\net8.0-windows\coursework.dll
+C:\studies\coursework\bin\Debug\net8.0-windows\coursework.pdb
+C:\studies\coursework\obj\Debug\net8.0-windows\coursework.Form1.resources
+C:\studies\coursework\obj\Debug\net8.0-windows\coursework.csproj.GenerateResource.cache
+C:\studies\coursework\obj\Debug\net8.0-windows\coursework.GeneratedMSBuildEditorConfig.editorconfig
+C:\studies\coursework\obj\Debug\net8.0-windows\coursework.AssemblyInfoInputs.cache
+C:\studies\coursework\obj\Debug\net8.0-windows\coursework.AssemblyInfo.cs
+C:\studies\coursework\obj\Debug\net8.0-windows\coursework.csproj.CoreCompileInputs.cache
+C:\studies\coursework\obj\Debug\net8.0-windows\coursework.dll
+C:\studies\coursework\obj\Debug\net8.0-windows\refint\coursework.dll
+C:\studies\coursework\obj\Debug\net8.0-windows\coursework.pdb
+C:\studies\coursework\obj\Debug\net8.0-windows\coursework.genruntimeconfig.cache
+C:\studies\coursework\obj\Debug\net8.0-windows\ref\coursework.dll
+C:\studies\Лабыидр. работы\Кульков\coursework\bin\Debug\net8.0-windows\coursework.exe
+C:\studies\Лабыидр. работы\Кульков\coursework\bin\Debug\net8.0-windows\coursework.deps.json
+C:\studies\Лабыидр. работы\Кульков\coursework\bin\Debug\net8.0-windows\coursework.runtimeconfig.json
+C:\studies\Лабыидр. работы\Кульков\coursework\bin\Debug\net8.0-windows\coursework.dll
+C:\studies\Лабыидр. работы\Кульков\coursework\bin\Debug\net8.0-windows\coursework.pdb
+C:\studies\Лабыидр. работы\Кульков\coursework\obj\Debug\net8.0-windows\coursework.csproj.GenerateResource.cache
+C:\studies\Лабыидр. работы\Кульков\coursework\obj\Debug\net8.0-windows\coursework.GeneratedMSBuildEditorConfig.editorconfig
+C:\studies\Лабыидр. работы\Кульков\coursework\obj\Debug\net8.0-windows\coursework.AssemblyInfoInputs.cache
+C:\studies\Лабыидр. работы\Кульков\coursework\obj\Debug\net8.0-windows\coursework.AssemblyInfo.cs
+C:\studies\Лабыидр. работы\Кульков\coursework\obj\Debug\net8.0-windows\coursework.csproj.CoreCompileInputs.cache
+C:\studies\Лабыидр. работы\Кульков\coursework\obj\Debug\net8.0-windows\coursework.dll
+C:\studies\Лабыидр. работы\Кульков\coursework\obj\Debug\net8.0-windows\refint\coursework.dll
+C:\studies\Лабыидр. работы\Кульков\coursework\obj\Debug\net8.0-windows\coursework.pdb
+C:\studies\Лабыидр. работы\Кульков\coursework\obj\Debug\net8.0-windows\coursework.genruntimeconfig.cache
+C:\studies\Лабыидр. работы\Кульков\coursework\obj\Debug\net8.0-windows\ref\coursework.dll
+C:\studies\Лабыидр. работы\Кульков\coursework\obj\Debug\net8.0-windows\coursework.MainForm.resources
+C:\studies\Лабыидр. работы\Кульков\coursework\obj\Debug\net8.0-windows\coursework.Properties.Resources.resources
