@@ -74,7 +74,7 @@
 			// ExprBox
 			// 
 			ExprBox.BackColor = SystemColors.MenuText;
-			ExprBox.Font = new Font("Segoe UI", 10F);
+			ExprBox.Font = new Font("Segoe UI", 12F);
 			ExprBox.ForeColor = SystemColors.Menu;
 			ExprBox.Location = new Point(12, 410);
 			ExprBox.Multiline = true;

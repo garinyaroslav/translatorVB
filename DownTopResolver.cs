@@ -1,4 +1,4 @@
-﻿using static coursework.MainForm;
+﻿using static coursework.LexParser;
 
 namespace coursework {
 	public class DownTopResolver {
@@ -145,15 +145,15 @@ namespace coursework {
 			}
 		}
 
-		public void GoToState(int s) {
+		void GoToState(int s) {
 			StateStack.Push(s);
 			state = s;
 		}
-		public void Shift() {
+		void Shift() {
 			LexStack.Push(Tokens[NextLex]);
 			NextLex++;
 		}
-		public void Reduce(int n, string NonTerm) {
+		void Reduce(int n, string NonTerm) {
 			for (int i = 0; i < n; i++) {
 				LexStack.Pop();
 				StateStack.Pop();

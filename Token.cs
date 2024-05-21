@@ -1,4 +1,4 @@
-﻿using static coursework.MainForm;
+﻿using static coursework.LexParser;
 
 namespace coursework {
   public class Token {

@@ -1,5 +1,5 @@
 ﻿using System.Linq.Expressions;
-using static coursework.MainForm;
+using static coursework.LexParser;
 
 namespace coursework {
 	public class TopDownResolver {
@@ -30,8 +30,8 @@ namespace coursework {
 					InitList();
 					OperatorList();
 				}
-				catch (TokenException e) {
-					MessageBox.Show($"{e.Message}: {e.StackTrace}", "Syntax Error");
+				catch (Exception e) {
+					throw new Exception(e.Message);
 				}
 			}
 			return ExprStr;
@@ -185,6 +185,16 @@ namespace coursework {
 				int n = 0;
 				try {
 					while (true) {
+						string tmp = "";
+						/*foreach (var t in TR.ToList()) {
+							tmp += t;
+						}
+						MessageBox.Show($"{CurrTok} TR: {tmp}");*/
+						/*foreach (var t in EN.ToList()) {
+							tmp += t;
+						}
+						MessageBox.Show($"{CurrTok} EN: {tmp}");*/
+
 						switch (CurrTok.Type) {
 							case TokenType.IDENTIFIER:
 							case TokenType.NUMBER:
@@ -317,7 +327,7 @@ namespace coursework {
 								}
 								break;
 							default:
-								throw new Exception("Ошибка в выражении, конец разбора");
+								throw new ExprException("Ошибка в выражении, конец разбора");
 						}
 					}
 
@@ -329,7 +339,7 @@ namespace coursework {
 						Token op1 = EN.Pop();
 						Token op2 = EN.Pop();
 
-						ExprStr += $"M{++n} :: {OP.Type} : {op1.Value} : {op2.Value}\r\n";
+						ExprStr += $"M{++n} :: {OP.Value} : {op1.Value} : {op2.Value}\r\n";
 						EN.Push(new Token($"M{n}", TokenType.NONTERM));
 					}
 
@@ -350,19 +360,23 @@ namespace coursework {
 						KOP(TR.Pop());
 					}
 					void D5() {
-						throw new Exception("Ошибка в выражении, конец разбора");
+						throw new ExprException("Ошибка в выражении, конец разбора");
 					}
 					void D6() {
+						if (EN.Count > 1) throw new ExprException("Ошибка в выражении, конец разбора");
 						ExprStr += "\r\n";
 						return;
 					} 
 				} catch {
-					throw new Exception("Ошибка в выражении, конец разбора");
+					throw new ExprException("Ошибка в выражении, конец разбора");
 				}
 			}
 		}
 	}
 	public class TokenException : Exception {
 		public TokenException(string message) : base(message) {}
+	}
+	public class ExprException : Exception {
+		public ExprException(string message) : base(message) { }
 	}
 }
