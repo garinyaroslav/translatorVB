@@ -95,7 +95,6 @@ namespace coursework {
 							else throw new Exception("Обнаружен недопустимый символ");
 							break;
 					}
-					/*if (i == CodeText.Length - 1) Tokens.Add(new Token(null, KeyWords[Buffer]));*/
 				}
 				if (Tokens[Tokens.Count - 1].Type != TokenType.NEWSTRING) Tokens.Add(new Token(null, TokenType.NEWSTRING));
 
@@ -103,8 +102,8 @@ namespace coursework {
 					ResultBox.Text += $"{Tokens[i]}\r\n";
 				}
 
-				TopDownResolver parserDown = new TopDownResolver(Tokens);
-				ExprBox.Text += parserDown.Start();
+				TopDownResolver parser = new TopDownResolver(Tokens);
+				ExprBox.Text += parser.Start();
 
 				/*DownTopResolver parserTop = new DownTopResolver(Tokens);
 				parserTop.Start();*/
@@ -113,6 +112,5 @@ namespace coursework {
 				MessageBox.Show($"Произошла ошибка: {ex.Message}");
 			}
 		}
-
 	}
 }

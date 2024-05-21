@@ -31,3 +31,4 @@ C:\studies\Лабыидр. работы\Кульков\coursework\obj\Debug\net8
 C:\studies\Лабыидр. работы\Кульков\coursework\obj\Debug\net8.0-windows\ref\coursework.dll
 C:\studies\Лабыидр. работы\Кульков\coursework\obj\Debug\net8.0-windows\coursework.MainForm.resources
 C:\studies\Лабыидр. работы\Кульков\coursework\obj\Debug\net8.0-windows\coursework.Properties.Resources.resources
+C:\studies\Лабыидр. работы\Кульков\coursework\obj\Debug\net8.0-windows\coursework.sourcelink.json
