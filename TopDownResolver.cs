@@ -185,16 +185,6 @@ namespace coursework {
 				int n = 0;
 				try {
 					while (true) {
-						string tmp = "";
-						/*foreach (var t in TR.ToList()) {
-							tmp += t;
-						}
-						MessageBox.Show($"{CurrTok} TR: {tmp}");*/
-						/*foreach (var t in EN.ToList()) {
-							tmp += t;
-						}
-						MessageBox.Show($"{CurrTok} EN: {tmp}");*/
-
 						switch (CurrTok.Type) {
 							case TokenType.IDENTIFIER:
 							case TokenType.NUMBER:
@@ -364,6 +354,8 @@ namespace coursework {
 					}
 					void D6() {
 						if (EN.Count > 1) throw new ExprException("Ошибка в выражении, конец разбора");
+						TR.Clear();
+						EN.Clear();
 						ExprStr += "\r\n";
 						return;
 					} 

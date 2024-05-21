@@ -40,7 +40,7 @@
 				for (int i = 0; i < CodeText.Length; i++) {
 					Current = CodeText[i];
 
-					if (Buffer.Length > 8) throw new Exception("Превышено колличество символов в переменной");
+					if (Buffer.Length > 8) throw new Exception("Превышено количество символов в литерале или идентификаторе");
 
 					switch (true) {
 						case true when Current == ' ':
