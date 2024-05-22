@@ -56,9 +56,9 @@
 						case true when IsKeyWord(Buffer + Current):
 							string tmp = Buffer + Current;
 							if (tmp == "and" || tmp == "or") {
-								Tokens.Add(new Token(Buffer + Current, KeyWords[Buffer + Current]));
+								Tokens.Add(new Token(tmp, KeyWords[tmp]));
 							} else {
-								Tokens.Add(new Token(null, KeyWords[Buffer + Current]));
+								Tokens.Add(new Token(null, KeyWords[tmp]));
 							}
 							Buffer = "";
 							break;
